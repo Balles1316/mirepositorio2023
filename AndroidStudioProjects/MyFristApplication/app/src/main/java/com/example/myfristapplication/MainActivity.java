@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View; // Asegúrate de importar View
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -45,28 +46,37 @@ public class MainActivity extends AppCompatActivity {
 
         contador--;
 
-        textoResultado.setText(String.valueOf(contador));
-
-    /*
         if(contador<0){
 
             CheckBox negativos = (CheckBox) findViewById(R.id.negativos);
 
-            if(!negativos.isChecked()){
+            if(!negativos.isChecked()) {
 
-                contador = 0 ;
-
-                textoResultado.setText(String.valueOf(contador));
+                contador = 0;
 
             }
+
         }
 
-     */
+        textoResultado.setText(String.valueOf(contador));
+
         //mostrarResultado();
     }
 
-    public void resetContador(View view) {
-        contador = 0;
+    public void resetContador(View view){
+
+        EditText textoReseteo = (EditText) findViewById(R.id.n_Reseteo);
+
+        try {
+
+            contador = Integer.parseInt(textoReseteo.getText().toString());
+
+        }catch(NumberFormatException e){
+
+            contador = 0 ;
+
+        }
+        textoReseteo.setText("");
 
         textoResultado.setText(String.valueOf(contador));
 

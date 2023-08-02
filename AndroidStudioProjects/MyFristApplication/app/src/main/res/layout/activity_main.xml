@@ -108,10 +108,28 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="145dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp"
             android:onClick="resetContador"
-            android:text="Resetea" />
+            android:text="Resetea"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/n_Reseteo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="reseteo"
+            android:layout_weight="1"
+            />
+
+        <CheckBox
+            android:id="@+id/negativos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="2"
+            android:text="negativos" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
