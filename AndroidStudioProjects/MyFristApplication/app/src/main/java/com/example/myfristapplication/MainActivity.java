@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         contador = 0 ;
 
-         textoResultado = findViewById(R.id.textContador);
+        textoResultado = findViewById(R.id.textContador);
     }
     /*
 
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         contador++;
 
-        textoResultado.setText("Contador : " + contador);
+        textoResultado.setText(String.valueOf(contador));
 
         //mostrarResultado();
     }
@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
     public void decrementarContador(View view) {
 
         contador--;
+
+        textoResultado.setText(String.valueOf(contador));
+
     /*
         if(contador<0){
 
@@ -52,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
             if(!negativos.isChecked()){
 
                 contador = 0 ;
+
+                textoResultado.setText(String.valueOf(contador));
 
             }
         }
@@ -62,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void resetContador(View view) {
         contador = 0;
+
+        textoResultado.setText(String.valueOf(contador));
+
         //mostrarResultado();
     }
 
