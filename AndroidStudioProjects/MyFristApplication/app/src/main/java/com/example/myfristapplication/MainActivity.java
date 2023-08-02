@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     public void decrementarContador(View view) {
 
         contador--;
-
+    /*
         if(contador<0){
 
             CheckBox negativos = (CheckBox) findViewById(R.id.negativos);
@@ -55,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }
+
+     */
         //mostrarResultado();
     }
 
