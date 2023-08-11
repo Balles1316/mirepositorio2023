@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     >
-
+    <!-- android:background="#19FFD9" -->
 
     <!--app:cornerRadius="30dp"  Modifica los bordes del boton -->
     <!--style="?attr/materialButtonOutlinedStyle"  Genera un  boton sin fondo-->
@@ -35,9 +35,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="120dp"
             android:layout_marginTop="113dp"
-            android:text="contador"
+            android:text="@string/contador"
             android:textColor="@color/black"
-            android:textSize="40dp" />
+            android:textSize="40dp"
+            app:textAllCaps="false" />
 
         <TextView
             android:id="@+id/textContador"
@@ -48,7 +49,9 @@
             android:textColor="@color/black"
             android:textSize="40dp"
             app:layout_constraintStart_toStartOf="@+id/TitleContador"
-            app:layout_constraintTop_toTopOf="@+id/TitleContador" />
+            app:layout_constraintTop_toTopOf="@+id/TitleContador"
+            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -109,17 +112,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:layout_weight="1"
             android:onClick="resetContador"
-            android:text="Resetea"
-            android:layout_weight="1" />
+            android:text="@string/resetea" />
 
         <EditText
             android:id="@+id/n_Reseteo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:hint="reseteo"
             android:layout_weight="1"
+            android:hint="@string/reseteo"
             />
 
         <CheckBox
@@ -128,7 +131,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_weight="2"
-            android:text="negativos" />
+            android:text="@string/negativos" />
 
     </LinearLayout>
 

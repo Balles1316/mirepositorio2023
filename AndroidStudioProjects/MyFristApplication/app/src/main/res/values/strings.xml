@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">MyFristApplication</string>
+    <string name="app_name">Aplicacion de Prueba</string>
+    <string name="contador">contador</string>
+    <string name="resetea">resetea</string>
+    <string name="reseteo">reseteo</string>
+    <string name="negativos">negativos</string>
 </resources>

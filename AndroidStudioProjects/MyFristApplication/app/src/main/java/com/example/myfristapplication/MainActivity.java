@@ -3,6 +3,7 @@ package com.example.myfristapplication;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View; // Asegúrate de importar View
+import android.view.inputmethod.InputMethodManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -79,6 +80,12 @@ public class MainActivity extends AppCompatActivity {
         textoReseteo.setText("");
 
         textoResultado.setText(String.valueOf(contador));
+
+        //En esta linea estamos indicando con quien es el dispositivo de entrada que utilizaremos
+        InputMethodManager miTeclado = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+
+        //En esta linea estamos indicando que solicitamos el cierre del dispositivo de entrada
+        miTeclado.hideSoftInputFromWindow(textoReseteo.getWindowToken(),0);
 
         //mostrarResultado();
     }

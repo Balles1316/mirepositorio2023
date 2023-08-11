@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StrudyAPP</string>
+    <string name="jugar">Play</string>
+    <string name="configuracion">Configuration</string>
+    <string name="salir">Exit</string>
+    <string name="informacion">Informatión</string>
+</resources>
