@@ -21,4 +21,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(inte);
 
     }
+
+    @Override
+    protected void onCreateOptionMenu(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
 }
