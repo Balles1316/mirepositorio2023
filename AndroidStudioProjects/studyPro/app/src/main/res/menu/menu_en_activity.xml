@@ -7,7 +7,7 @@
     <item
         android:id="@+id/configuracion"
         android:title="@string/configuracion"
-        android:onClick="ejecutar_info" />
+        />
 
     <item
         android:id="@+id/informacion"
