@@ -49,7 +49,9 @@ class MarcoCentrado extends JFrame{
 		
 		setTitle("Parabeus");
 		
-		Image miIcono = miPantalla.getImage("icono.gif");
+		Image miIcono = miPantalla.getImage("icon-512.png");
+		
+		setIconImage(miIcono);
 		
 	}
 	
