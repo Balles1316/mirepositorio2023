@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        layout="@layout/tool_bar"
+        tools:layout_editor_absoluteY="434dp"></include>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,8 +17,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <Button
             android:id="@+id/buttonJugar"
@@ -33,13 +38,15 @@
             android:id="@+id/buttonSalir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="salirAPP"
             android:text="@string/salir" />
 
         <Button
             android:id="@+id/buttonInformacion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/informacion"
-            android:onClick="ejecutar_info"/>
+            android:onClick="ejecutar_info"
+            android:text="@string/informacion" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

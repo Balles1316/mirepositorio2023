@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< Updated upstream
     package="com.lossencillos.vistasgraficos">
+=======
+    package="com.example.vistasgraficos">
+>>>>>>> Stashed changes
 
     <application
         android:allowBackup="true"

@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< Updated upstream
         <entry key="..\:/Users/admin-PC/Documents/GitHub/mirepositorio2023/VistasGraficos/app/src/main/res/layout/activity_main.xml" value="0.5" />
+=======
+        <entry key="..\:/Users/admin-PC/Documents/GitHub/mirepositorio2023/VistasGraficos/app/src/main/res/layout/activity_main.xml" value="0.1" />
+>>>>>>> Stashed changes
       </map>
     </option>
   </component>

@@ -6,7 +6,11 @@ android {
     compileSdk 33
 
     defaultConfig {
+<<<<<<< Updated upstream
         applicationId "com.lossencillos.vistasgraficos"
+=======
+        applicationId "com.example.vistasgraficos"
+>>>>>>> Stashed changes
         minSdk 21
         targetSdk 32
         versionCode 1
