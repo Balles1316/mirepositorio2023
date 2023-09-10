@@ -1,0 +1,2 @@
+Empleado [codigo=1, nombre=Roman, direcccion=Ballesteros, salario=700.0, comision=0.0]
+Empleado [codigo=2, nombre=Juan, direcccion=Ballesteros, salario=700.0, comision=0.0]
