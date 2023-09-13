@@ -594,3 +594,14 @@ org.eclipse.core.runtime.CoreException: Launch configuration TicketGenerator ref
 2023-09-10 23:15:42,223 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\admin-PC\Documents\GitHub\ParabeusTicketGenerator\ticketGeneratorCeleste\src\main\resources
 2023-09-10 23:15:42,228 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-09-10 23:15:42,228 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\admin-PC\Documents\GitHub\ParabeusTicketGenerator\ticketGeneratorCeleste\src\test\resources
+2023-09-12 22:18:14,205 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-09-12 22:19:32,604 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-09-12 22:21:46,911 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-12 22:21:46,912 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\admin-PC\Documents\GitHub\ParabeusTicketGenerator\ticketGeneratorCeleste\src\main\resources
+2023-09-12 22:21:46,915 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-12 22:21:46,929 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\admin-PC\Documents\GitHub\ParabeusTicketGenerator\ticketGeneratorCeleste\src\test\resources
+2023-09-13 12:10:30,365 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-09-13 12:10:53,086 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-13 12:10:53,087 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\admin-PC\Documents\GitHub\ParabeusTicketGenerator\ticketGeneratorCeleste\src\main\resources
+2023-09-13 12:10:53,091 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-13 12:10:53,091 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\admin-PC\Documents\GitHub\ParabeusTicketGenerator\ticketGeneratorCeleste\src\test\resources

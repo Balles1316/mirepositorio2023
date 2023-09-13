@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Actividad 1"
+        android:text="Informacion de la aplicación"
         android:textColor="#C70039"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
